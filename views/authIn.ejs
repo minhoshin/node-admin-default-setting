@@ -1,0 +1,27 @@
+<% include ./include/header %>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                SIGN IN
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <form method="post" action="auth">
+                <div>
+                    ID <input type="password" placeholder="Input Id" name="id">
+                </div>
+                <div>
+                    PASSWORD <input type="password" placeholder="Input Password" name="password">
+                </div>
+                <div>
+                    <button type="submit">SIGN IN</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+<% include ./include/footer %>

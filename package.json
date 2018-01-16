@@ -1,0 +1,30 @@
+{
+  "name": "node-admin-default-setting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "rns": "./index.js"
+  },
+  "scripts": {
+    "nodemon start": "nodemon app.js",
+    "pm2 start single": "pm2 start app.js --name nodeadmin -i 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "co": "^4.6.0",
+    "connect-redis": "^3.3.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "inquirer": "^4.0.1",
+    "internal-ip": "^3.0.1",
+    "lodash": "^4.17.4",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.4.1",
+    "redis": "^2.8.0",
+    "serve-favicon": "^2.4.5"
+  }
+}

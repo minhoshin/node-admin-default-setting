@@ -1,0 +1,9 @@
+{
+  "apps": [{
+    "name": "nodeejs",
+    "script": "app.js",
+    "watch": false,
+    "exec_mode": "cluster",
+    "instances": 0
+  }]
+}
